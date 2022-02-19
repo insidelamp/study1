@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8520064748.js" crossorigin="anonymous"></script>
+  </head>
+  <body onload="image_change()">
+    
+    <div id="imgCh">
+      <div class="weather_main">
+        <div id="weather">
+          <div class="weather_icon">
+            <i class="fa-solid fa-cloud-moon"></i>
+            <span></span>
+          </div>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="clock_main">
+        <h2 id="clock">00:00:00</h2>
+      </div>
+
+      
+      <form class="hidden" id="Login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <input type="submit" value="Log In">
+      </form>
+      <h1 class="hidden" id="greeting"></h1>
+      
+      <div class="todo_main">
+        <form id="todo-form">
+          <input type="text" placeholder="write a To Do and Press Enter" required>
+
+        </form>
+        <ul id="todo-list"></ul>
+        <form></form>
+      </div>
+      
+
+      <div class="quote_main">
+        <div id="quote" onload="text_change">
+          <span></span>
+          <span></span>
+        </div>
+      </div>  
+    </div>
+   
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html> 
